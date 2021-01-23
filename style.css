@@ -1,0 +1,40 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.container div{
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    color: #fff;
+    padding: 10px;
+}
+
+.container div:first-of-type{
+    background-color: brown;
+}
+
+.container div:nth-of-type(2){
+    background-color: blueviolet;
+}
+
+.container div:last-of-type{
+    background-color: cadetblue;
+}
+
+
+
